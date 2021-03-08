@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar class="ion-text-center" color="softblue">
+    <ion-title>Hubungi Kami</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button>Back</ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content> 
+  <div class="ion-padding"> 
+    <ion-text color="dark"> 
+      <p>Isi pertanyaan dan kami akan menghubungi anda tidak lama lagi</p>
+    </ion-text> 
+    
+    <ion-item> 
+      <ion-label position="floating">Nama</ion-label>
+       <ion-input type="text" [(ngModel)]="post.name" required></ion-input>
+    </ion-item>
+    
+    <ion-item> 
+      <ion-label position="floating">Email</ion-label> 
+      <ion-input type="email" placeholder="your@gmail.com" [(ngModel)]="post.email" required></ion-input>
+    </ion-item> 
+    
+    <ion-item> 
+      <ion-label>Jenis Pertanyaan</ion-label>
+      <ion-select value="General" okText="Okay" [(ngModel)]="post.enquiry" cancelText="Dismiss"> 
+        <ion-select-option value="Respon">Respon</ion-select-option>
+        <ion-select-option value="Lain-lain">Lain-lain</ion-select-option>
+      </ion-select>
+    </ion-item> 
+
+  <ion-item>
+    <ion-label position="floating">Mesej</ion-label>
+    <ion-input [(ngModel)]="post.message"></ion-input>
+  </ion-item> 
+  
+  <ion-button expand="block" color="softblue" (click)="createPost(post)"> 
+    <ion-icon slot="start" name="send"></ion-icon>
+    Hantar
+   </ion-button>
+  </div>
+</ion-content>
+

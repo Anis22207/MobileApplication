@@ -1,0 +1,110 @@
+<ion-header style="background-color: #a6cdde; height: 150px;">
+  <ion-buttons slot="start">
+    <ion-menu-button menu="main-menu"></ion-menu-button>
+  </ion-buttons>
+  <img width="90px" style="margin-left: 30px; margin-top: 35px;" src="assets/soalan2.png">
+  <div style="margin-top: -95px;" class="quiz">
+</div>
+<label style="font-size: 10px; color: black; padding-left: 145px; padding-bottom: 50px;">Hi pelajar!</label><br>
+<label style="font-size: 10px; color: black; padding-left: 145px;">Jom kita ulangkaji semula</label><br> 
+<label style="font-size: 10px; color: black; padding-left: 145px;">yang telah kita pelajari</label>
+</ion-header>
+
+<ion-content>
+
+  <ion-slides pager="true" pager="false" #mySlider>
+
+    <ion-slide style=" margin-top: 50px;">
+      <div class="slide" style="width: 255px; border-radius: 5px; ">
+        <div class="img1">
+        <img src="assets/soalan1.png"/>
+      </div>
+      <div>
+        <h5>SELAMAT MENJAWAB SEMUA!</h5>
+      </div>
+        <p style="font-size: 13px; margin-top: -8px; margin-left: 100px;">Selak untuk selanjutnya</p>
+      </div>
+
+    </ion-slide>
+
+    <ion-slide style=" margin-top: 50px;">
+      <div class="slide" style="width: 255px; border-radius: 5px; ">
+        <div class="img1">
+        <img  src="assets/set1.png"/>
+      </div>
+      <div>
+        <h5>SOALAN DIAGNOSTIK</h5>
+      </div>
+        <p><ion-button [routerLink] = "['/set1']" expand="block" color="softgreen">MULA</ion-button></p>
+        <p style="font-size: 13px; margin-top: -8px; margin-left: 100px;">Selak untuk selanjutnya</p>
+      </div>
+
+    </ion-slide>
+
+    <ion-slide style=" margin-top: 50px;">
+      <ion-card>
+        <div>
+          <h1>DI MANAKAH ANDA?</h1>
+          <br><h3>ARAS RENDAH: 1-3</h3>
+          <br><h3>ARAS SEDERHANA: 4-6</h3>
+          <br><h3>ARAS TINGGI: 7-10</h3>
+        </div>
+      </ion-card>
+    </ion-slide>
+
+
+    <ion-slide style=" margin-top: 50px;">
+      <div class="slide" style="width: 240px; border-radius: 5px; ">
+        <div class="img1">
+          <img src="assets/set2.png"/>
+        </div>
+    <div>
+      <h5 >ARAS RENDAH</h5>
+    </div>
+    <p><ion-button [routerLink] = "['/set2']" expand="block"  color="softgreen">MULA</ion-button></p>
+    <p style="font-size: 13px; margin-top: -8px; margin-left: 100px;">Selak untuk selanjutnya</p>
+    </div>
+    </ion-slide>
+
+    <ion-slide style=" margin-top: 50px;">
+      <div class="slide" style="width: 255px; border-radius: 5px; ">
+        <div class="img1">
+          <img src="assets/set3.png"/>
+        </div>
+    <div>
+      <h5>ARAS SEDERHANA</h5>
+    </div>
+    <p><ion-button [routerLink] = "['/set3']" expand="block"  color="softgreen">MULA</ion-button></p>
+    <p style="font-size: 13px; margin-top: -8px; margin-left: 100px;">Selak untuk selanjutnya</p>
+    </div>
+    </ion-slide>
+
+    <ion-slide style=" margin-top: 50px;">
+      <div class="slide" style="width: 500px; border-radius: 5px; ">
+        <div class="img1">
+          <img style="margin-top: -55px;" src="assets/set4.jpg"/>
+        </div>
+    <div>
+      <h5>ARAS TINGGI</h5>
+    </div>
+    <p><ion-button [routerLink] = "['/set4']" expand="block" color="softgreen">MULA</ion-button></p>
+    <p style="font-size: 13px; margin-top: -8px; margin-left: 100px;">Selak untuk selanjutnya</p>
+    </div>
+    </ion-slide>
+
+    <ion-slide style=" margin-top: 50px;">
+      <div class="slide" style="width: 270px; border-radius: 5px; ">
+        <div class="img1">
+          <img style="margin-top: -55px;" src="assets/quiz1.png"/>
+        </div>
+    <div class="c1" style="padding-left: 23px; margin-top: -20.5px;">
+      <h5 style=" width: 207px; padding: 5px; color: black; margin-top: -45px;">CHAPTER 5</h5>
+    </div>
+    <p><ion-button [routerLink] = "['/quiz5']" expand="block"  color="softgreen">start</ion-button></p>
+    <p style="font-size: 13px; margin-top: -8px; margin-left: 100px;">swipe for more</p>
+    </div>
+    </ion-slide>   
+
+    </ion-slides>
+
+</ion-content>

@@ -1,0 +1,429 @@
+<ion-header>
+  <ion-toolbar class="ion-text-center" color="softblue">
+    <ion-title>ARAS SEDERHANA</ion-title>
+      <ion-buttons slot="start">
+        <ion-back-button>Kembali</ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br><br>
+    <ion-slides pager="true" pager="false" #mySlider>
+  
+      <!-- Question 21 -->
+      <ion-slide style=" margin-top: 10px;">
+        <div class="slide" style="width: 255px; ">
+          <h3 style="margin-top: -90px; margin-left: -15px;"><b>Soalan 2</b></h3><br><br>
+          <div class="q1" >
+            <label style="margin-left: -20px;">&nbsp;&nbsp;1.Sofea tidak dapat<br>membuka penutup botol<br>jem nanas.Kakaknya<br>memberitahu Sofea supaya<br>merendam penutup botol
+              <br>jem tersebut dalam<br>besen yang berisi air<br>panas.Apakah yang <br>kan berlaku apabila penutup<br>jem direndam dalam air<br>panas? </label>
+          </div><br>
+  
+          <div style="margin-left: -18px;" class="question">
+            <div (click)="wrongAnswer21()" class="choice-container">
+              <p class="choice-prefix">A</p>
+              <p class="choice-text">Air panas menyebabkan<br>penutup mengecut</p>
+            </div>
+  
+            <br><div (click)="correctAnswer()" class="choice-container">
+              <p class="choice-prefix">B</p>
+              <p class="choice-text">Air panas menyebabkan<br>penutup botol mengembang</p>
+            </div>
+    
+            <br><div (click)="wrongAnswer21()" class="choice-container">
+              <p class="choice-prefix">C</p>
+              <p class="choice-text">Air panas menyebabkan<br>udara dalam botol<br>mengembang.</p>
+            </div>
+    
+            <br><div (click)="wrongAnswer21()" class="choice-container">
+              <p class="choice-prefix">D</p>
+              <p class="choice-text">Air panas menyebabkan<br>udara dalam botol mengecut.</p>
+            </div>
+  
+          </div>
+  
+        </div>
+  
+        <div style="margin-top: 820px; margin-left: -100px;" class="b1" >
+          <ion-button style="font-size: 11px; width: 90px;" (click) = "swipeNext()">Seterusnya</ion-button>
+        </div>
+      </ion-slide>
+      <!-- end of question 21 -->
+  
+<!-- Question 22 -->
+<ion-slide style=" margin-top: 10px;">
+  <div class="slide" style="width: 255px; ">
+    <h3 style="margin-top: -90px; margin-left: -15px;"><b>Soalan 2</b></h3><br><br>
+    <div class="q1" >
+      <label style="margin-left: -20px;">&nbsp;&nbsp;2.Antara bahan berikut,<br>yang manakah berbeza<br>sifatnya berbanding<br>dengan bahan-bahan lain?</label>
+    </div><br>
+
+    <div style="margin-left: -18px;" class="question">
+      <div (click)="wrongAnswer22()"  class="choice-container">
+        <p class="choice-prefix">A</p>
+        <p class="choice-text">Larutan Garam</p>
+      </div>
+
+      <br><div (click)="wrongAnswer22()" class="choice-container">
+        <p class="choice-prefix">B</p>
+        <p class="choice-text">Kicap</p>
+      </div>
+
+      <br><div (click)="correctAnswer()"  class="choice-container">
+        <p class="choice-prefix">C</p>
+        <p class="choice-text">Cuka</p>
+      </div>
+
+      <br><div (click)="wrongAnswer22()" class="choice-container">
+        <p class="choice-prefix">D</p>
+        <p class="choice-text">Minyak masal</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div style="margin-top: 580px; margin-left: -100px;" class="b1" >
+    <ion-button style="font-size: 11px; width: 90px;" (click) = "swipeNext()">Seterusnya</ion-button>
+  </div>
+</ion-slide>
+<!-- end of question 22 -->
+
+ <!-- Question 23 -->
+ <ion-slide style=" margin-top: 10px;">
+  <div class="slide" style="width: 255px; ">
+    <h3 style="margin-top: -90px; margin-left: -15px;"><b>Soalan 3</b></h3><br><br>
+    <div class="q1" >
+      <label style="margin-left: -20px;">&nbsp;&nbsp;3.Rajah 11 menunjukkan dua<br>buah bekas, K dan L yang<br>setiap satunya diisi<br>dengan 200 ml air.
+        <br>Kedua-dua bekas<br>itu dibiarkan di bawah<br>cahaya matahari.
+        <p class="ion-text-center">  
+          <img src="/assets/s3.jpeg"  width="100%">
+        </p>
+      <p>Selepas 2 jam, jumlah<br>air yang tinggal dalam<br>bekas L lebih banyak<br>daripada jumlah air yang<br>tinggal dala bekas K.
+        <br>Apakah inferens yang<br>dapat dibuat berdasarkan<br>penyiasatan itu? </p></label>
+    </div><br>
+
+    <div style="margin-left: -18px;" class="question">
+      <div (click)="correctAnswer()" class="choice-container">
+        <p class="choice-prefix">A</p>
+        <p class="choice-text">Luas permukaan bekas K<br>lebih besar daripada luas<br>permukaan bekas L</p>
+      </div>
+
+      <br><div (click)="wrongAnswer23()" class="choice-container">
+        <p class="choice-prefix">B</p>
+        <p class="choice-text">Bekas K dibuat daripada<br>besi manakal bekas L<br>dibuat daripada plastik</p>
+      </div>
+
+      <br><div (click)="wrongAnswer23()" class="choice-container">
+        <p class="choice-prefix">C</p>
+        <p class="choice-text">Bekas L lebih tinggi<br>daripada bekas K</p>
+      </div>
+
+      <br><div (click)="wrongAnswer23()" class="choice-container">
+        <p class="choice-prefix">D</p>
+        <p class="choice-text"> Isipadu air dalam bekas<br>L labih banyak daripada<br>isipadu air dalam bekas K.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div style="margin-top: 1100px; margin-left: -100px;" class="b1" >
+    <ion-button style="font-size: 11px; width: 90px;" (click) = "swipeNext()">Seterusnya</ion-button>
+  </div>
+</ion-slide>
+<!-- end of question 23 -->
+
+<!-- Question 24 -->
+<ion-slide style=" margin-top: 10px;">
+  <div class="slide" style="width: 255px; ">
+    <h3 style="margin-top: -90px; margin-left: -15px;"><b>Soalan 4</b></h3><br><br>
+    <div class="q1" >
+      <label style="margin-left: -20px;">&nbsp;&nbsp;4.Rajah 12 menunjukkan<br>satu eksperimen.
+        <p class="ion-text-center">  
+          <img src="/assets/s4.jpeg"  width="100%">
+        </p>
+      <p>Apakah yang akan<br>berlaku selepas seminggu?</p></label>
+    </div><br>
+
+    <div style="margin-left: -18px;" class="question">
+      <div (click)="wrongAnswer24()" class="choice-container">
+        <p class="choice-prefix">A</p>
+        <p class="choice-text">Paras air dalam bekas<br>berkurangan</p>
+      </div>
+
+      <br><div (click)="wrongAnswer24()" class="choice-container">
+        <p class="choice-prefix">B</p>
+        <p class="choice-text">Warna air dalam bekas<br>berubah</p>
+      </div>
+
+      <br><div (click)="correctAnswer()" class="choice-container">
+        <p class="choice-prefix">C</p>
+        <p class="choice-text">Warna paku menjadi<br>keperangan </p>
+      </div>
+
+      <br><div (click)="wrongAnswer24()" class="choice-container">
+        <p class="choice-prefix">D</p>
+        <p class="choice-text">Saiz paku menjadi lebih kecil</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div style="margin-top: 800px; margin-left: -100px;" class="b1" >
+    <ion-button style="font-size: 11px; width: 90px;" (click) = "swipeNext()">Seterusnya</ion-button>
+  </div>
+</ion-slide>
+<!-- end of question 24 -->
+
+<!-- Question 25 -->
+<ion-slide style=" margin-top: 10px;">
+  <div class="slide" style="width: 255px; ">
+    <h3 style="margin-top: -90px; margin-left: -15px;"><b>Soalan 5</b></h3><br><br>
+    <div class="q1">
+      <label style="margin-left: -20px;">&nbsp;&nbsp;5.Rajah 13 menunjukkan<br>suatu aktiviti.
+        <p class="ion-text-center">  
+          <img src="/assets/s5.jpeg" width="100%">
+        </p><p>Apakah tujuan aktiviti itu?</p></label>
+    </div><br>
+
+    <div style="margin-left: -18px;" class="question">
+      <div (click)="wrongAnswer25()" class="choice-container">
+        <p class="choice-prefix">A</p>
+        <p class="choice-text">Mencantikkan pagar</p>
+      </div>
+
+      <br><div (click)="correctAnswer()" class="choice-container">
+        <p class="choice-prefix">B</p>
+        <p class="choice-text">Mencegah besi pagar<br>daripada terdedah kepada<br>udara dan air</p>
+      </div>
+
+      <br><div (click)="wrongAnswer25()" class="choice-container">
+        <p class="choice-prefix">C</p>
+        <p class="choice-text">Menghalang besi pagar<br>daripada terkena najis<br>haiwan</p>
+      </div>
+
+      <br><div (click)="wrongAnswer25()"class="choice-container">
+        <p class="choice-prefix">D</p>
+        <p class="choice-text">Menguatkan struktur pagar</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div style="margin-top: 830px; margin-left: -100px;" class="b1" >
+    <ion-button style="font-size: 11px; width: 90px;" (click) = "swipeNext()">Seterusnya</ion-button>
+  </div>
+</ion-slide>
+<!-- end of question 25 -->
+
+    <!-- Question 26 -->
+<ion-slide style=" margin-top: 10px;">
+  <div class="slide" style="width: 255px; ">
+    <h3 style="margin-top: -90px; margin-left: -15px;"><b>Soalan 6</b></h3><br><br>
+    <div class="q1">
+      <label style="margin-left: -20px;">&nbsp;&nbsp;6.Jadual 4 menunjukkan<br>beberapa jenis bahan makanan. 
+        <p class="ion-text-center">  
+          <img src="/assets/s6.jpeg"  width="100%">
+        </p><p>Antara yang berikut,<br>bahan manakah yang aka<br> menukarkan warna kertas<br>litmus merah menjadi biru?</p></label>
+    </div><br>
+
+    <div style="margin-left: -18px;" class="question">
+      <div (click)="correctAnswer()"  class="choice-container">
+        <p class="choice-prefix">A</p>
+        <p class="choice-text">P dan R</p>
+      </div>
+
+      <br><div (click)="wrongAnswer26()" class="choice-container">
+        <p class="choice-prefix">B</p>
+        <p class="choice-text">P dan Q</p>
+      </div>
+
+      <br><div (click)="wrongAnswer26()"  class="choice-container">
+        <p class="choice-prefix">C</p>
+        <p class="choice-text">Q dan S</p>
+      </div>
+
+      <br><div (click)="wrongAnswer26()"  class="choice-container">
+        <p class="choice-prefix">D</p>
+        <p class="choice-text">R dan S</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div style="margin-top: 800px; margin-left: -100px;" class="b1" >
+    <ion-button style="font-size: 11px; width: 90px;" (click) = "swipeNext()">Seterusnya</ion-button>
+    </div>
+</ion-slide>
+<!-- end of question 26 -->
+
+<!-- Question 27 -->
+<ion-slide style=" margin-top: 10px;">
+  <div class="slide" style="width: 255px; ">
+    <h3 style="margin-top: -90px; margin-left: -15px;"><b>Soalan 7</b></h3><br><br>
+    <div class="q1" >
+      <label style="margin-left: -20px;">7.Rajah 14 menunjukkan<br>suatu penyiasatan yang<br>telah dijalankan untuk<br>mengkaji sifat-sifat jirim. 
+        <p class="ion-text-center">  
+          <img src="/assets/s7.jpeg" width="100%">
+        </p><br><p>Apakah kesimpulan yang<br>boleh dibuat berdasarkan<br>penyiasatan ini?</p></label>
+    </div><br>
+  <div style="margin-left: -18px;" class="question">
+    <div (click)="correctAnswer()" class="choice-container">
+      <p class="choice-prefix">A</p>
+      <p class="choice-text">Gas mempunyai bjisim.</p>
+    </div>
+
+    <br><div (click)="wrongAnswer27()" class="choice-container">
+      <p class="choice-prefix">B</p>
+      <p class="choice-text">Gas tidak boleh memenuhi<br>ruang.</p>
+    </div>
+
+    <br><div (click)="wrongAnswer27()"  class="choice-container">
+      <p class="choice-prefix">C</p>
+      <p class="choice-text">Gas tidak mempunyai<br>bentuk yang tetap.</p>
+    </div>
+
+    <br><div (click)="wrongAnswer27()" class="choice-container">
+      <p class="choice-prefix">D</p>
+      <p class="choice-text">Gas mempunyai isipadu<br>yang tetap.</p>
+    </div>
+  </div>
+
+  </div>
+
+  <div style="margin-top: 870px; margin-left: -100px;" class="b1" >
+    <ion-button style="font-size: 11px; width: 90px;" (click) = "swipeNext()">Seterusnya</ion-button>
+  </div>
+</ion-slide>
+<!-- end of question 27 -->
+
+<!-- Question 28 -->
+<ion-slide style=" margin-top: 10px;">
+  <div class="slide" style="width: 255px; ">
+    <h3 style="margin-top: -90px; margin-left: -15px;"><b>Soalan 8</b></h3><br><br>
+    <div class="q1" >
+      <label style="margin-left: -20px;">&nbsp;&nbsp;8.Apakah yang dimaksudkan<br>dengan pantulan cahaya?</label>
+    </div><br>
+
+    <div style="margin-left: -18px;" class="question">
+      <div (click)="wrongAnswer28()" class="choice-container">
+        <p class="choice-prefix">A</p>
+        <p class="choice-text">Cahaya bergerak ke<br>semua arah.</p>
+      </div>
+
+      <br><div (click)="wrongAnswer28()" class="choice-container">
+        <p class="choice-prefix">B</p>
+        <p class="choice-text">Cahaya bergerak dalam<br>satu garis lurus.</p>
+      </div>
+
+      <br><div (click)="correctAnswer()"   class="choice-container">
+        <p class="choice-prefix">C</p>
+        <p class="choice-text">Cahaya boleh dipantulkan<br>apabila terkena permukaan<br>yang licin dan berkilat.</p>
+      </div>
+
+      <br><div (click)="wrongAnswer28()" class="choice-container">
+        <p class="choice-prefix">D</p>
+        <p class="choice-text">Cahaya dapat dipantulkan<br>apabila terkena permukaan<br>kasar dan tidak rata. </p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div style="margin-top: 670px; margin-left: -100px;" class="b1" >
+    <ion-button style="font-size: 11px; width: 90px;" (click) = "swipeNext()">Seterusnya</ion-button>
+  </div>
+</ion-slide>
+<!-- end of question 28 -->
+
+ <!-- Question 29 -->
+ <ion-slide style=" margin-top: 10px;">
+  <div class="slide" style="width: 255px; ">
+    <h3 style="margin-top: -90px; margin-left: -15px;"><b>Soalan 9</b></h3><br><br>
+    <div class="q1" >
+      <label style="margin-left: -20px;">&nbsp;&nbsp;9.Sekumpulan murid telah<br>memasang satu set<br>litar elektrik lengkap<br>untuk mengkaji kecerahan<br>mentol di dalam bilik
+        <br>sains.Mengapakah sel<br>kering penting dalam<br>satu litar elektrik?</label>
+    </div><br>
+
+    <div style="margin-left: -18px;" class="question">
+      <div (click)="wrongAnswer29()" class="choice-container">
+        <p class="choice-prefix">A</p>
+        <p class="choice-text">Memancarkan cahaya.</p>
+      </div>
+
+      <br><div (click)="correctAnswer()" class="choice-container">
+        <p class="choice-prefix">B</p>
+        <p class="choice-text">Membekalkan tenaga elektrik.</p>
+      </div>
+
+      <br><div (click)="wrongAnswer29()" class="choice-container">
+        <p class="choice-prefix">C</p>
+        <p class="choice-text">Melengkapkan litar elektrik. </p>
+      </div>
+
+      <br><div (click)="wrongAnswer29()" class="choice-container">
+        <p class="choice-prefix">D</p>
+        <p class="choice-text">Mengalirkan arus elektrik.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div style="margin-top: 670px; margin-left: -100px;" class="b1" >
+    <ion-button style="font-size: 11px; width: 90px;" (click) = "swipeNext()">Seterusnya</ion-button>
+  </div>
+</ion-slide>
+<!-- end of question 29 -->
+
+<!-- Question 30 -->
+<ion-slide style=" margin-top: 10px;">
+  <div class="slide" style="width: 255px; ">
+    <h3 style="margin-top: -90px; margin-left: -15px;"><b>Soalan 10</b></h3><br><br>
+    <div class="q1" >
+      <label style="margin-left: -20px;">&nbsp;&nbsp;10.Rajah 15 menunjukkan<br>pengelasan sumber tenaga.
+        <p class="ion-text-center">  
+          <img src="/assets/s10.jpeg"  width="100%">
+        </p><br><p>Antara yang berikut,<br>yang manakah mewakili X dan Y?</p></label>
+    </div><br>
+
+    <div style="margin-left: -18px;" class="question">
+      <div (click)="wrongAnswer30()" class="choice-container">
+        <p class="choice-prefix">A</p>
+        <p class="choice-text">X:Arang Batu, Y:Biojisim</p>
+      </div>
+
+      <br><div (click)="wrongAnswer30()" class="choice-container">
+        <p class="choice-prefix">B</p>
+        <p class="choice-text">X:Gas Asli, Y:Petroleum</p>
+      </div>
+
+      <br><div (click)="wrongAnswer30()"  class="choice-container">
+        <p class="choice-prefix">C</p>
+        <p class="choice-text">X:Tenaga Suria, Y:Angin</p>
+      </div>
+
+      <br><div (click)="correctAnswer()" class="choice-container">
+        <p class="choice-prefix">D</p>
+        <p class="choice-text">X:Angin, Y:Tenaga Nuklear</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div style="margin-top: 800px; margin-left: -100px;" class="b1">
+    <ion-button [routerLink] = "['/soalan']" style="font-size: 13px; width: 90px;" (click)="submit()">Tamat</ion-button>
+    </div>
+</ion-slide>
+<!-- end of question 30 -->
+
+</ion-slides>
+
+
+</ion-content>

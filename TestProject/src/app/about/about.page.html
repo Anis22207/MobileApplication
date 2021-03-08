@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar class="ion-text-center" color="softblue">
+    <ion-title>Berkenaan Kami</ion-title>
+      <ion-buttons slot="start">
+        <ion-back-button>Back</ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen class="ion-padding" scroll-y="false">
+  <ion-slides>
+
+    <ion-slide>
+      <div class="slide">
+        <img src="./assets/about1.png"/>
+        <h2><b>MENEMUI</b></h2>
+        <p><b>Self-Learning Acccess</b> memberi manafaat kepada pelajar darjah enam bagi subjek sains.</p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="slide">
+      <img src="./assets/about2.1.png"/>
+      <h2><b>LATIHAN</b></h2>
+      <p>Menguji pengetahuan sedia ada pelajar.</p>
+      <p>Menyediakan latihan yang mencabar minda dan kefahaman pelajar.</p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="slide">
+      <img src="./assets/email.1.png" width="50%">
+      <h2><b>HUBUNGI KAMI</b></h2>
+      <p><b>Untuk Pertanyaan :</b></p>
+        <p>Talian HP dari 9:00AM - 5:00PM
+        (Hari Bekerja Sahaja)</p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="slide">
+      <img src="./assets/Logo.png"/>
+      <h2>Bersedia untuk mula?</h2>
+      <ion-button  [routerLink]="['/soalan']" fill="clear">Tekan sini <ion-icon slot="end" name="arrow-forward"></ion-icon></ion-button>
+      </div>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>

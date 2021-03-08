@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar class="ion-text-center" color="softblue">
+    <ion-title>ASL</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <p class="ion-text-center">  
+    <img src="/assets/Logo.png" alt="fcom logo" width="50%">
+  </p>
+
+  <ion-grid fixed>
+    <ion-row>
+    <ion-col size="12">
+      <ion-card color="pink">
+        <p class="ion-text-center">  
+          <img src="/assets/Diagnostic.png" alt="diagnostic" width="30%">
+          <ion-button color="white" [routerLink]="['/soalan']" expand="block" fill="clear" size="large"> 
+          Soalan
+          </ion-button>
+          </p>
+      </ion-card>
+      </ion-col>
+      </ion-row>
+
+
+      <ion-row>
+        <ion-col size="12">
+          <ion-card color="primary">
+            <p class="ion-text-center">  
+              <img src="/assets/Level.png" alt="level1" width="30%">
+              <ion-button color="white" [routerLink]="['/contact']" expand="block" fill="clear" size="large"> 
+              Hubungi Kami
+              </ion-button>
+              </p>
+          </ion-card>
+          </ion-col>
+          </ion-row>
+
+          <ion-row>
+            <ion-col size="12">
+              <ion-card color="success">
+                <p class="ion-text-center">  
+                  <img src="/assets/FAQs.png" alt="faqs" width="30%">
+                  <ion-button color="white" [routerLink]="['/faqs']" expand="block" fill="clear" size="large"> 
+                  Soalan Lazim
+                  </ion-button>
+                  </p>
+              </ion-card>
+              </ion-col>
+              </ion-row>
+
+              <ion-row>
+                <ion-col size="12">
+                  <ion-card color="medium">
+                    <p class="ion-text-center">  
+                      <img src="/assets/About Us.png" alt="about" width="30%">
+                      <ion-button color="white" [routerLink]="['/about']" expand="block" fill="clear" size="large"> 
+                      Berkenaan kami
+                      </ion-button>
+                      </p>
+                  </ion-card>
+                  </ion-col>
+                  </ion-row>
+
+                  <ion-row>
+                    <ion-col size="12">
+                      <ion-card color="dark">
+                        <p class="ion-text-center">  
+                          <img src="/assets/logout2.png" alt="logout" width="30%">
+                          <ion-button color="white" [routerLink]="['/login']" expand="block" fill="clear" size="large"> 
+                          Log Keluar
+                          </ion-button>
+                          </p>
+                      </ion-card>
+                      </ion-col>
+                      </ion-row>
+                  
+  </ion-grid>
+</ion-content>
+
+
